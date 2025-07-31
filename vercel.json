@@ -9,9 +9,6 @@
     { "src": "/build/(.*)", "dest": "/public/build/$1" },
     { "src": "/(.*)", "dest": "/api/index.php" }
   ],
-  "public": true,
-  "buildCommand": "vite build",
-  "outputDirectory": "public",
   "env": {
     "APP_ENV": "production",
     "APP_DEBUG": "false",
@@ -34,3 +31,4 @@
     "DB_PASSWORD": ""
   }
 }
+    
